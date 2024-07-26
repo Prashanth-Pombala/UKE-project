@@ -1,7 +1,20 @@
 # UKE-project
+# Task 1: PDF Rotation Angle Detection
 
-#  Task 2
-## Implementation
+This project detects the rotation angle of each page in a PDF document by converting the pages into images, performing Fourier and Hough transforms, and calculating the angles required to correct the rotation.
+
+## Overview
+### Convert PDF to Images: 
+Each page of the PDF is converted into an image.
+### Fourier Transform: 
+Apply Fourier Transform to the images to analyze frequency components.
+### Hough Transform: 
+Use Hough Transform on the Fourier-transformed images to detect rotation angles.
+### Correct Rotation: 
+Rotate images based on the detected angles to correct the orientation.
+
+#  Task 2: Classify PDF Images
+## Overview
 
 We need to find if each page of the file is 
             0: machine-readable
